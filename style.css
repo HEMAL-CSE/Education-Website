@@ -1,0 +1,317 @@
+/* NAV */
+nav{
+    /* position: fixed; */
+    /* width: ; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.6vw 7.8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+.navigation{
+    margin-bottom: 0;
+
+}
+.logo{
+    margin-right: 30px;
+}
+
+nav img{
+    width: 80px;
+    cursor: pointer;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 220px;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(22, 22, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+nav .navigation ul li a:hover{
+    color: #FDC93B;
+}
+/* Home page */
+#home{
+    background-image: linear-gradient(rgba(57, 36, 212, 0.3), rgba(57, 36, 212, 0.4)), url("image/banner.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;    
+}
+#home h2{
+    /* color: #000; */
+    color: wheat;
+    /* font-size: 2.2rem; */
+    font-size: 46px;
+    letter-spacing: 1px;
+}
+#home p{
+    width: 50%;  
+    /* color: #000; */
+    color: wheat;
+    font-size: 23px;
+    line-height: 25px;
+    /* font-size: 0.9rem; */
+}
+
+/* Feature section */
+#features{
+    padding: 1.2vw 8vw 0 8vw;
+    text-align: center;
+}
+
+.f-h{
+    cursor: pointer;
+    color: yellowgreen;
+}
+#features .p{
+    /* width: 50%; */
+    text-align: center;
+}
+.feature-heading{
+    font-size: 40px;
+}
+
+/* CSS For our Features in one line */
+#features .feature-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 40px;
+}
+
+#features .feature-box{
+    /* background: hsl(240, 72%, 83%); */
+    /* background: #f0c349; */
+    text-align: start;
+    background: #F9F9FF;
+}
+#features .feature-box i{
+    font-size: 2.3rem;
+    color: rgb(44, 44, 80);
+}
+#features .feature-box h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(44, 46, 70);
+}
+#features .feature-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(54, 46, 70);
+}
+/* Features Section End */
+
+/* About us section */
+.about-container{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 40px;
+}
+
+.about-title{
+    font-size: 55px;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about-photo{
+    width: 300px;
+}
+.about-description{
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.para{
+    font-size: 17px;
+    width: 50%;
+}
+/* About us section end */
+
+
+/* Contact page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    position: relative;
+    min-height: 80vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(154, 231, 231);
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-weight: bold;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    /* font-weight: 500; */
+    /* color: #070068; */
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm h2{
+    font-size: 30px;
+    /* color: #333; */
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 105%;
+    margin-top: 10px;
+}
+/* .contactForm .inputBox input, */
+.contactForm .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    /* color: #666; */
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+    color: red;
+    font-size: 12px;
+    transform: translateY(-16px);
+} 
+
+.contactForm .inputBox input[type="submit"]{
+    width:  100px;
+    background: #00bcd4;
+    /* color: #fff; */
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+/* Responsibe Contact Us page */
+@media (max-width: 991px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo, .contactForm{
+        width: 100%;
+    }
+}
+
+
+/* Footer Section */
+/* Footer Section start */
+.footer-logo{
+    width: 160px;
+}
+.footer-container{
+    background: url("./images/background.png"), 
+    linear-gradient( #000, gray); 
+    color: white;
+    height: 30vh;
+    /* background-color: #111111; */
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+
+}
