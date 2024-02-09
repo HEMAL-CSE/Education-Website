@@ -325,12 +325,12 @@ footer{
     flex-wrap: wrap;
 }
 footer .footer-col{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 footer h3{
     color: rgb(241, 240, 245);
     font-weight: 600;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 footer li{
     list-style: none;
@@ -381,4 +381,20 @@ footer .copyright{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer .copyright p{
+    color: white;
+}
+footer .copyright .pro-links i{
+    padding: 08PX 15PX;
+    border: 1PX solid rgb(21, 21, 100);
+    background-color: #3080db;
+    gap: 19px;
+    
+}
+footer .copyright .pro-links i:hover{
+    background-color: #FDC93B;
+    color: #2c2c2c;
 }
