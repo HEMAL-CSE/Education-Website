@@ -313,5 +313,72 @@ nav .navigation ul li a:hover{
     display: flex;
     justify-content: space-around;
     padding: 120px;
+}
 
+/* Final Footer Part with responsibe */
+footer{
+    padding: 6vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .footer-col{
+    padding-bottom: 30px;
+}
+footer h3{
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+footer li:hover{
+    color: rgb(241, 240, 245);
+}
+footer p{
+    color: #7b838a;
+}
+footer .subscribe{
+    margin-top: 20px;
+}
+    /* margin-top: 20px; */
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334F6C;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 600;
+}
+footer .subscribe a.yellow{
+    color: #fff;
+    background: #FDC93B;
+    transition: 0.3S ease;
+}
+footer .subscribe a.yellow:hover{
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+
+/* copyright section */
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
