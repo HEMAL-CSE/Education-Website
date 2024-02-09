@@ -1,7 +1,7 @@
 /* NAV */
 nav{
     /* position: fixed; */
-    /* width: ; */
+    /* width: 100%; */
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -9,6 +9,7 @@ nav{
     padding: 0.6vw 7.8vw;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     align-items: center;
+    z-index: 999;
 }
 .navigation{
     margin-bottom: 0;
@@ -76,7 +77,7 @@ nav .navigation ul li a:hover{
 
 /* Feature section */
 #features{
-    padding: 1.2vw 8vw 0 8vw;
+    padding: 2vw 8vw 0 8vw;
     text-align: center;
 }
 
@@ -89,7 +90,7 @@ nav .navigation ul li a:hover{
     text-align: center;
 }
 .feature-heading{
-    font-size: 40px;
+    font-size: 42px;
 }
 
 /* CSS For our Features in one line */
@@ -97,7 +98,7 @@ nav .navigation ul li a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 1rem;
-    margin-top: 40px;
+    margin-top: 39px;
 }
 
 #features .feature-box{
@@ -109,6 +110,8 @@ nav .navigation ul li a:hover{
 #features .feature-box i{
     font-size: 2.3rem;
     color: rgb(44, 44, 80);
+    margin-top: 09px;
+    margin-left: 09px;
 }
 #features .feature-box h3{
     font-size: 1.2rem;
@@ -131,8 +134,8 @@ nav .navigation ul li a:hover{
 }
 
 .about-title{
-    font-size: 55px;
-    margin-top: 15px;
+    font-size: 48px;
+    margin-top: 20px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -172,7 +175,7 @@ nav .navigation ul li a:hover{
     text-align: center;
 }
 .contact .content h2{
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 500;
     font-weight: bold;
 }
@@ -299,21 +302,6 @@ nav .navigation ul li a:hover{
 }
 
 
-/* Footer Section */
-/* Footer Section start */
-.footer-logo{
-    width: 160px;
-}
-.footer-container{
-    background: url("./images/background.png"), 
-    linear-gradient( #000, gray); 
-    color: white;
-    height: 30vh;
-    /* background-color: #111111; */
-    display: flex;
-    justify-content: space-around;
-    padding: 120px;
-}
 
 /* Final Footer Part with responsibe */
 footer{
@@ -398,3 +386,6 @@ footer .copyright .pro-links i:hover{
     background-color: #FDC93B;
     color: #2c2c2c;
 }
+
+/* Responsibe part */
+@media (max-width)
